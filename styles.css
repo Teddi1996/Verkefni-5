@@ -39,7 +39,6 @@ p {
 }
 
 .card {
-	display: flex;
 	background: #fff;
 	border: 2px solid #aaa;
 	border-radius: 5px;
@@ -49,17 +48,23 @@ p {
 	margin: 0 0 0.625em 0;
 }
 
-.card h1 {
-	display: flex; 
-	
+.card__body {
+	display: flex;
 }
 
 .card__img {
 	max-width: 9.375em;
 	max-height: 9.375em;
+	align-self: flex-start;
 }
 
 .card__text {
+	overflow-y: auto;
+	overflow-wrap: break-word;
+}
+
+.card h2 {
+	overflow-wrap: break-word;
 }
 
 /* mynd fyllir út í card__img */ 
