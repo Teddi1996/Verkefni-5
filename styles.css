@@ -40,7 +40,7 @@ h2 {
 
 .card {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column; 
 	background: #fff;
 	border: 2px solid #aaa;
 	border-radius: 5px 5px 5px 5px;
@@ -76,8 +76,10 @@ img {
 }
 
 ul {
+	height: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	align-content: flex-end;
 }
 
 li {
