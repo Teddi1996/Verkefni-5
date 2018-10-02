@@ -29,6 +29,7 @@ h2 {
         overflow-wrap: break-word;
         font-size: 1.375em;
         line-height: 1.375em;
+	padding-bottom: 0.5em;
 }
 
 .cards {
@@ -60,6 +61,7 @@ h2 {
 .card__img {
 	max-width: 9.375em;
 	max-height: 9.375em;
+	margin-left: 1em;
 }
 
 .card__text {
@@ -68,6 +70,7 @@ h2 {
 	overflow: auto;
 	overflow-wrap: break-word;
 	max-height: 12em;
+
 }
 
 /* mynd fyllir út í card__img */ 
